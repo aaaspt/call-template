@@ -11,6 +11,6 @@ on:
 jobs:
     run-build:
         name: Call Reusable Workflow
-        uses: aaaspt/node-template/.github/workflow/node-build-template.yml@main
+        uses: aaaspt/node-template/.github/workflows/node-build-template.yml@main
         with: 
             node-version: '20' 
